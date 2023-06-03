@@ -38,7 +38,7 @@ footer {
   display: table;
   height: 100%;
   margin: auto;
-  padding: 100px;
+  padding: 40px;
 }
 
 .section-bg h1 {
@@ -54,7 +54,7 @@ footer {
 
 }
 nav {
-  position: sticky;
+  position: fixed;
   top:0;
   width: 100%;
   height: auto;
@@ -86,4 +86,46 @@ nav li a{
 }
 nav li a:hover{
   color: #b2b2b2;
+}
+
+.section-body{
+ 
+  width: 80%;
+  height: inherit;
+  margin: auto;
+  padding: 4em 0;
+
+}
+.section-photo{
+  width: 50%;
+  height: inherit;
+  float:left
+}
+.section-text{
+  width: 50%;
+  height: inherit;
+  float:left
+
+}
+.section-text p{
+ padding: 2em;
+ font-size:2em;
+ font-weight: 2em;
+
+}
+.section-img{
+  display:inline-block;
+  width: 100%;
+  height: 100%;
+}
+.clear{
+  clear:both;
+}
+.section2{
+  margin: auto;
+  margin-top: 100px;  
+  width: 90%;
+  height: 30vh;
+  border-bottom: 1px solid #ccc;
+  background-image: url(./images/science.jpg);
 }
